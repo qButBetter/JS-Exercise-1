@@ -1,0 +1,19 @@
+.button-conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: lightskyblue;
+    color: black;
+    font-size: 2em;
+    padding: 3em;
+    border-radius: 10%;
+}
+
+.output-container {
+    border: 2px black solid;
+    background-color: lightgray;
+    color: black;
+}
