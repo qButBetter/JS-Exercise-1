@@ -33,9 +33,11 @@ function add() {
     //Check if output is NaN
     if (isNaN(output)) {
         document.write("Sorry, that number isn't supported. Goodbye :3");
+        setTimeout(run(), 10000);
     }
     else {
         document.write(output);
+        setTimeout(run(), 10000);
     }
 }
 
@@ -50,9 +52,11 @@ function subtract() {
     //Check if output is NaN
     if (isNaN(output)) {
         document.write("Sorry, that number isn't supported. Goodbye :3");
+        setInterval(run(), 10000);
     }
     else {
         document.write(output);
+        setInterval(run(), 10000);
     }
 }
 
@@ -67,9 +71,11 @@ function multiply() {
     //Check if output is NaN
     if (isNaN(output)) {
         document.write("Sorry, that number isn't supported. Goodbye :3");
+        setInterval(run(), 10000);
     }
     else {
         document.write(output);
+        setInterval(run(), 10000);
     }
 }
 
@@ -84,8 +90,10 @@ function divide() {
     //Check if output is NaN
     if (isNaN(output)) {
         document.write("Sorry, that number isn't supported. Goodbye :3");
+        setInterval(run(), 10000);
     }
     else {
         document.write(output);
+        setInterval(run(), 10000);
     }
 }

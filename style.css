@@ -1,19 +1,20 @@
-.button-conatiner {
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* Make button  go directly in the middle of the page*/
+/* .button-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30em;
 }
 
 button {
     background-color: lightskyblue;
     color: black;
     font-size: 2em;
-    padding: 3em;
+    padding: 1em;
     border-radius: 10%;
-}
-
-.output-container {
-    border: 2px black solid;
-    background-color: lightgray;
-    color: black;
-}
+} */
