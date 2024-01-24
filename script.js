@@ -18,7 +18,9 @@ function run() {
             break;
 
         default:
-            document.write("Sorry, I don't recognize that operation. Goodbye :3");
+            document.write("Sorry, I don't recognize that operation. Goodbye :3" + `<section class="button-container">
+            <button onClick="refreshPage()">Math!</button>
+        </section>`);
     }
 }
 
@@ -32,10 +34,14 @@ function add() {
 
     //Check if output is NaN
     if (isNaN(output)) {
-        document.write("Sorry, that number isn't supported. Goodbye :3");
+        document.write("Sorry, that number isn't supported. Goodbye :3" + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
     else {
-        document.write(output);
+        document.write(output + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
 }
 
@@ -49,10 +55,14 @@ function subtract() {
 
     //Check if output is NaN
     if (isNaN(output)) {
-        document.write("Sorry, that number isn't supported. Goodbye :3");
+        document.write("Sorry, that number isn't supported. Goodbye :3" + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
     else {
-        document.write(output);
+        document.write(output + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
 }
 
@@ -66,10 +76,14 @@ function multiply() {
 
     //Check if output is NaN
     if (isNaN(output)) {
-        document.write("Sorry, that number isn't supported. Goodbye :3");
+        document.write("Sorry, that number isn't supported. Goodbye :3" + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
     else {
-        document.write(output);
+        document.write(output + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
 }
 
@@ -83,10 +97,14 @@ function divide() {
 
     //Check if output is NaN
     if (isNaN(output)) {
-        document.write("Sorry, that number isn't supported. Goodbye :3");
+        document.write("Sorry, that number isn't supported. Goodbye :3" + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
     else {
-        document.write(output);
+        document.write(output + `<section class="button-container">
+        <button onClick="refreshPage()">Math!</button>
+    </section>`);
     }
 }
 
