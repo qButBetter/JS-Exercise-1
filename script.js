@@ -1,3 +1,4 @@
+//Mother Function
 function run() {
     let userInput = prompt("What operation do you wish to use?").toLowerCase();
     switch (userInput) {
@@ -24,6 +25,7 @@ function run() {
     }
 }
 
+//Addition Function
 function add() {
     alert("You picked Addition!");
     let input1 = parseInt(prompt("What is your first number?"));
@@ -45,6 +47,7 @@ function add() {
     }
 }
 
+//Subtraction Function
 function subtract() {
     alert("You picked Subtraction!");
     let input1 = parseInt(prompt("What is your first number?"));
@@ -66,6 +69,7 @@ function subtract() {
     }
 }
 
+//Multiplication Function
 function multiply() {
     alert("You picked Multiplication!");
     let input1 = parseInt(prompt("What is your first number?"));
@@ -87,6 +91,7 @@ function multiply() {
     }
 }
 
+//Division Function
 function divide() {
     alert("You picked Division!");
     let input1 = parseInt(prompt("What is your first number?"));
@@ -108,7 +113,7 @@ function divide() {
     }
 }
 
-// To refresh the page
+//To refresh the page on button press
 function refreshPage() {
     window.location.reload();
 } 
